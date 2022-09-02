@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: rgb(109, 92, 66);
 }
 
 ul li {
@@ -25,7 +26,11 @@ ul li {
 }
 
 .laderList li:nth-child(even) {
-  background-color: #ddd;
+  background-color: #fff;
+}
+
+.laderList li:nth-child(odd) {
+  color: #fff;
 }
 
 .laderList {

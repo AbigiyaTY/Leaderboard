@@ -1,4 +1,4 @@
-// import './style.css';
+import './style.css';
 import scoreDisplay from './modules/scoreDisplay.js';
 import score from './modules/score.js';
 import newScoure from './modules/newScoure.js';

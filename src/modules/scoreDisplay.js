@@ -7,7 +7,7 @@ const scoreDisplay = (data) => {
     data.forEach((score) => {
       const scoreList = document.createElement('li');
       scoreList.className = 'scoreList';
-      scoreList.innerHTML = `${score.user}: ${score.score}`;
+      scoreList.innerHTML = `${score.user}:${score.score}`;
       laderList.appendChild(scoreList);
     });
   }

@@ -10,7 +10,7 @@
 
 ## Live Demo 
 
-[Live Demo Link](/https://abigiyaty.github.io/Leaderboard/dist/index.html)
+[Live Demo Link](https://abigiyaty.github.io/Leaderboard/dist/index.html)
 
 
 

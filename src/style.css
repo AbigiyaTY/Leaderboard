@@ -20,6 +20,10 @@ ul li {
   margin-left: 70px;
 }
 
+.laderList li {
+  padding-left: 10px;
+}
+
 .laderList li:nth-child(even) {
   background-color: #ddd;
 }
@@ -33,11 +37,11 @@ ul {
   padding-left: 0;
 }
 
-.refresh {
+#refresh {
   background-color: #fff;
 }
 
-.Submit {
+#Submit {
   margin-left: 30%;
   background-color: #fff;
 }

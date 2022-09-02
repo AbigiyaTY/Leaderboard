@@ -10,7 +10,7 @@
         "start": "webpack serve --open"
     },
     "repository": {
-        "type": "git",
+        "type": "module",
         "url": "git+https://github.com/AbigiyaTY/webpack.git"
     },
     "keywords": [],
@@ -23,6 +23,7 @@
     "devDependencies": {
         "babel-eslint": "^10.1.0",
         "css-loader": "^6.7.1",
+        "dotenv-webpack": "^8.0.1",
         "eslint": "^7.32.0",
         "eslint-config-airbnb-base": "^14.2.1",
         "eslint-plugin-import": "^2.26.0",
@@ -36,5 +37,8 @@
         "webpack": "^5.74.0",
         "webpack-cli": "^4.10.0",
         "webpack-dev-server": "^4.10.0"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.2"
     }
 }

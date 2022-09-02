@@ -28,36 +28,30 @@
         <div class="col-7 left-align">
             <div class="row my-3">
                 <h4 class="col-3 fw-bold">Recent Scores</h4>
-                <button class="col-2 refresh" type="button">Refresh</button>
+                <button class="col-2" id="refresh" type="button">Refresh</button>
             </div>
-            <ul class="laderList col-5">
-                <li class="px-2">Name:100</li>
-                <li class="px-2">Name:20</li>
-                <li class="px-2">Name:50</li>
-                <li class="px-2">Name:78</li>
-                <li class="px-2">Name:125</li>
-                <li class="px-2">Name:77</li>
-                <li class="px-2">Name:42</li>
-            </ul>
+            <ul class="laderList col-5"></ul>
         </div>
         <div class="col-3">
             <h4 class="fw-bold">Add your score</h4>
             <form>
                 <ul>
                     <li>
-                        <input class="my-3" type="text" placeholder="your name" required />
+                        <input class="my-3 name" id="name" type="text" placeholder="your name" required />
                     </li>
                     <li>
-                        <input type="text" placeholder="your score" required />
+                        <input type="text" id="scoreInput" placeholder="your score" required />
                     </li>
                     <li>
-                        <button class="my-3 Submit col-3" type="button">Submit</button>
+                        <button class="my-3 col-3" type="button" id="Submit">
+                Submit
+              </button>
                     </li>
                 </ul>
             </form>
         </div>
     </section>
-    <script src="./index.js"></script>
+    <script type="module" src="./index.js"></script>
 <script defer src="main.js"></script></body>
 
 </html>

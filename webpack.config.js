@@ -20,6 +20,8 @@ module.exports = {
       use: ['style-loader', 'css-loader'],
     }],
   },
-  plugins: [HTMLWebpackPluginConfig],
+  plugins: [
+    HTMLWebpackPluginConfig,
+  ],
 
 };

@@ -1,4 +1,9 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Leaderboard
+
+> Leaderboard website displays scores submitted by different players. It also allows to submit score. All data is preserved to the external API service. 
+
 ## Built with
 
 * HTML5
